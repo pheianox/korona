@@ -12,7 +12,7 @@ function App() {
   const [allCountryTotals, setAllCountryTotals] = useState<CovidCountryTotal[]>([]);
   const [currentCountryHistory, setCurrentCountryHistory] = useState<CovidCountryHistory>();
   const [currentCountryTotals, setCurrentCountryTotals] = useState<CovidCountryTotal>();
-  const [currentCountryISO2, setCurrentCountryISO2] = useState("AZ");
+  const [currentCountryISO2, setCurrentCountryISO2] = useState("-");
   const [isPageLoaded, setIsPageLoaded] = useState(false);
   const [isDataFetching, setIsDataFetching] = useState(false);
   const [isCountryChosen, setIsCountryChosen] = useState(false);
