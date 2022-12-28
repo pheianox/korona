@@ -1,4 +1,4 @@
-# korona
+# Korona
 
 Online Covid-19 Info
 
